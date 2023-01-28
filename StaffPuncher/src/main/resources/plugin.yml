@@ -1,0 +1,18 @@
+name: Staffpuncher
+version: '${project.version}'
+main: dev.bludenz.staffpuncher.Staffpuncher
+api-version: 1.19
+authors: [ Bludenz ]
+description: A plugin to punch staff
+commands:
+  punchon:
+    description: A command to toggle punch on
+    usage: /<command> on
+  punchoff:
+    description: A command to toggle punch off
+    usage: /<command> off
+  punchstate:
+    description: A command to set another players state
+    usage: /<command> <player> <state>
+    permission: group.admin
+    permission-message: §cYou don't have permission to execute this command!
